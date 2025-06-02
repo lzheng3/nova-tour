@@ -49,13 +49,13 @@ export default function AITravelPlannerLanding() {
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-        <div className="container flex h-16 items-center justify-between">
+        <div className="mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8 flex h-16 items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-r from-blue-600 to-green-500 rounded-xl">
               <Plane className="h-6 w-6 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-green-500 bg-clip-text text-transparent">
-              TravelAI
+              NovaTour
             </span>
           </div>
 
@@ -104,9 +104,9 @@ export default function AITravelPlannerLanding() {
       </header>
 
       <main className="flex-1">
-        {/* Hero Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
-          <div className="container px-4 md:px-6">
+        <div className="mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8">
+          {/* Hero Section */}
+          <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
             <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-6">
                 <div className="space-y-4">
@@ -176,15 +176,13 @@ export default function AITravelPlannerLanding() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        {/* Core Interfaces Section */}
-        <section
-          id="features"
-          className="w-full py-12 md:py-24 lg:py-32 bg-white"
-        >
-          <div className="container px-4 md:px-6">
+          {/* Core Interfaces Section */}
+          <section
+            id="features"
+            className="w-full py-12 md:py-24 lg:py-32 bg-white"
+          >
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <Badge
@@ -232,8 +230,8 @@ export default function AITravelPlannerLanding() {
                           Natural Language Interaction
                         </h4>
                         <p className="text-sm text-gray-600">
-                          "I love history museums but not interested in
-                          shopping" - Express preferences naturally
+                          &quot;I love history museums but not interested in
+                          shopping&quot; - Express preferences naturally
                         </p>
                       </div>
                     </div>
@@ -427,8 +425,8 @@ export default function AITravelPlannerLanding() {
                           Voice Interaction Control
                         </h4>
                         <p className="text-sm text-gray-600">
-                          "Next attraction", "Repeat that" - Hands-free
-                          intelligent operation
+                          &quot;Next attraction&quot;, &quot;Repeat that&quot; -
+                          Hands-free intelligent operation
                         </p>
                       </div>
                     </div>
@@ -462,15 +460,13 @@ export default function AITravelPlannerLanding() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        {/* How It Works Section */}
-        <section
-          id="how-it-works"
-          className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-blue-50 to-green-50"
-        >
-          <div className="container px-4 md:px-6">
+          {/* How It Works Section */}
+          <section
+            id="how-it-works"
+            className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-blue-50 to-green-50"
+          >
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <Badge
@@ -510,8 +506,8 @@ export default function AITravelPlannerLanding() {
                     <div className="flex items-start space-x-2">
                       <Users className="h-4 w-4 text-blue-600 mt-0.5" />
                       <span>
-                        "Family trip to Paris, love museums, avoid crowded
-                        places"
+                        &quot;Family trip to Paris, love museums, avoid crowded
+                        places&quot;
                       </span>
                     </div>
                   </div>
@@ -568,15 +564,13 @@ export default function AITravelPlannerLanding() {
                 </CardContent>
               </Card>
             </div>
-          </div>
-        </section>
+          </section>
 
-        {/* Testimonials Section */}
-        <section
-          id="testimonials"
-          className="w-full py-12 md:py-24 lg:py-32 bg-white"
-        >
-          <div className="container px-4 md:px-6">
+          {/* Testimonials Section */}
+          <section
+            id="testimonials"
+            className="w-full py-12 md:py-24 lg:py-32 bg-white"
+          >
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <Badge
@@ -608,10 +602,10 @@ export default function AITravelPlannerLanding() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-4">
-                    "First time using AI for trip planning and it exceeded
+                    &quot;First time using AI for trip planning and it exceeded
                     expectations! The voice guide feature is amazing - like
                     having a professional guide with you. Every temple in Kyoto
-                    had detailed historical narration."
+                    had detailed historical narration.&quot;
                   </p>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-gradient-to-r from-blue-400 to-green-400 rounded-full flex items-center justify-center">
@@ -640,10 +634,10 @@ export default function AITravelPlannerLanding() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-4">
-                    "Traveling with kids requires careful planning. TravelAI was
-                    incredibly thoughtful - all recommended attractions were
-                    family-friendly. The offline feature was a lifesaver in
-                    remote areas!"
+                    &quot;Traveling with kids requires careful planning.
+                    TravelAI was incredibly thoughtful - all recommended
+                    attractions were family-friendly. The offline feature was a
+                    lifesaver in remote areas!&quot;
                   </p>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-gradient-to-r from-green-400 to-blue-400 rounded-full flex items-center justify-center">
@@ -672,9 +666,9 @@ export default function AITravelPlannerLanding() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-4">
-                    "As a solo female traveler, safety is my top concern. AI
-                    recommended safe routes and adjusted explanations based on
-                    my interests. So thoughtful and personalized!"
+                    &quot;As a solo female traveler, safety is my top concern.
+                    AI recommended safe routes and adjusted explanations based
+                    on my interests. So thoughtful and personalized!&quot;
                   </p>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-gradient-to-r from-orange-400 to-pink-400 rounded-full flex items-center justify-center">
@@ -690,15 +684,13 @@ export default function AITravelPlannerLanding() {
                 </CardContent>
               </Card>
             </div>
-          </div>
-        </section>
+          </section>
 
-        {/* Pricing Section */}
-        <section
-          id="pricing"
-          className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-blue-50 to-green-50"
-        >
-          <div className="container px-4 md:px-6">
+          {/* Pricing Section */}
+          <section
+            id="pricing"
+            className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-blue-50 to-green-50"
+          >
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <Badge
@@ -857,12 +849,10 @@ export default function AITravelPlannerLanding() {
                 </CardContent>
               </Card>
             </div>
-          </div>
-        </section>
+          </section>
 
-        {/* Final CTA Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-green-500">
-          <div className="container px-4 md:px-6">
+          {/* Final CTA Section */}
+          <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-green-500">
             <div className="flex flex-col items-center justify-center space-y-6 text-center text-white">
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
@@ -885,7 +875,7 @@ export default function AITravelPlannerLanding() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="h-12 px-8 border-2 border-white text-white hover:bg-white hover:text-blue-600 transition-all duration-200 font-semibold"
+                  className="h-12 px-8 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-200 font-semibold"
                 >
                   Download Mobile App
                   <Smartphone className="ml-2 h-4 w-4" />
@@ -906,20 +896,20 @@ export default function AITravelPlannerLanding() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </main>
 
       {/* Footer */}
       <footer className="w-full py-6 bg-gray-900 text-white">
-        <div className="container px-4 md:px-6">
+        <div className="mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-4">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <div className="flex items-center justify-center w-8 h-8 bg-gradient-to-r from-blue-600 to-green-500 rounded-xl">
                   <Plane className="h-5 w-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">TravelAI</span>
+                <span className="text-xl font-bold">NovaTour</span>
               </div>
               <p className="text-sm text-gray-400">
                 Transforming travel experiences with intelligent AI technology,
@@ -1032,7 +1022,7 @@ export default function AITravelPlannerLanding() {
           <div className="mt-8 pt-8 border-t border-gray-800">
             <div className="flex flex-col sm:flex-row justify-between items-center">
               <p className="text-xs text-gray-400">
-                © {new Date().getFullYear()} TravelAI. All rights reserved.
+                © {new Date().getFullYear()} Nova Tour. All rights reserved.
               </p>
               <div className="flex space-x-4 mt-4 sm:mt-0">
                 <Link
